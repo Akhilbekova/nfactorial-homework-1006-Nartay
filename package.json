@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "git add .\necho 'Enter your commit message:'\nread commit\ngit commit -m \"$commit\"\ngit push"
+    "gitcommand": "git add .\necho 'Enter your commit message:'\nread commit\ngit commit -m \"$commit\"\ngit push"
   },
   "repository": {
     "type": "git",
